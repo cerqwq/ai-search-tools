@@ -182,8 +182,7 @@ class AISearchTools:
 请返回JSON格式：
 {{
     "optimized_query": {{}},
-    "improvements": ["改进"],
-    "performance_tips": ["性能建议"]
+    "improvements": ["改进"]
 }}"""
 
         response = self.client.chat.completions.create(
